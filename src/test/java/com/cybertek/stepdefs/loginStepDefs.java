@@ -9,6 +9,8 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
+import java.util.List;
+
 public class loginStepDefs {
     LoginPage loginPage = new LoginPage();
     HomePagePage homePagePage = new HomePagePage();
@@ -16,11 +18,14 @@ public class loginStepDefs {
     public void user_is_on_sign_on_page() {
         Driver.getDriver().get(ConfigurationReader.getProperty("bookiturl"));
     }
-    @When("{string} enters username {string} and password {string}")
-    public void enters_username_and_password(String user, String username, String password) {
-        loginPage.userLogin(username,password);
+
+    @When("User enter the credentials:")
+    public void userEnterTheCredentials(List<String> credentials) {
+
+        loginPage.userLogin(credentials.get(0),credentials.get(1));
     }
-    @When("clicks sign in button")
+
+    @When("Clicks sign in button")
     public void clicks_sign_in_button() {
         loginPage.signInBtn.click();
     }
@@ -30,4 +35,6 @@ public class loginStepDefs {
     public void userShouldSeeMapOnHomepage() {
         Assert.assertTrue(homePagePage.mapImg.isDisplayed());
     }
+
+
 }

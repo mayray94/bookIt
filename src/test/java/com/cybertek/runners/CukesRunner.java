@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "com/cybertek/stepdefs",
-        dryRun = false
-        //tags = ""
+        dryRun = false,
+        tags = "@login"
 )
 public class CukesRunner {
 }
