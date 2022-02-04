@@ -8,3 +8,4 @@
       |huntdurand         |
       And Clicks sign in button
       Then User should see map on homepage
+
