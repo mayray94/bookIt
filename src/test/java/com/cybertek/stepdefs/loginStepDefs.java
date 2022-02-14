@@ -2,8 +2,8 @@ package com.cybertek.stepdefs;
 
 import com.cybertek.pages.HomePagePage;
 import com.cybertek.pages.LoginPage;
-import com.cybertek.utils.ConfigurationReader;
-import com.cybertek.utils.Driver;
+import com.cybertek.utilities.ConfigurationReader;
+import com.cybertek.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
