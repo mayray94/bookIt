@@ -82,4 +82,34 @@ public class ApiStepDefs {
         assertThat(uiFullname, equalTo(apiFullname));
         assertThat(uiRole, equalTo(apiUserMap.get("role")));
     }
+
+
+    @Given("User sends GET request to {string} with {string}")
+    public void user_sends_GET_request_to_with(String endpoint, String teamId) {
+
+         response = given().accept(ContentType.JSON).and().header("Authorization",accessToken).pathParam("id", teamId).log().all().when().get(Environment.BASE_URL + endpoint);
+
+    }
+
+
+
+    @Then("Team name should be {string} in response")
+    public void team_name_should_be_in_response(String string) {
+
+    }
+
+    @Then("Database Query should have  {string} and {string}")
+    public void database_Query_should_have_and(String string, String string2) {
+
+    }
+
+
+
+
+
+
+
+
+
+
 }
