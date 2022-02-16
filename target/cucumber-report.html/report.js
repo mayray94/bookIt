@@ -2,17 +2,20 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "name": "Team module verifications",
   "description": "",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@teams"
+    },
+    {
+      "name": "@db"
+    }
+  ]
 });
 formatter.scenarioOutline({
   "name": "2 point team info verification,Api and Database",
   "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@teams"
-    }
-  ]
+  "keyword": "Scenario Outline"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -306,8 +309,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -359,6 +368,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -366,8 +378,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -419,6 +437,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -426,8 +447,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -479,6 +506,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -486,8 +516,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -539,6 +575,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -546,8 +585,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -599,6 +644,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -606,8 +654,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -659,6 +713,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -666,8 +723,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -719,6 +782,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -726,8 +792,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -779,6 +851,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -786,8 +861,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -837,6 +918,10 @@ formatter.match({
   "location": "ApiStepDefs.database_Query_should_have_and(String,String)"
 });
 formatter.result({
+  "error_message": "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:657)\r\n\tat java.util.ArrayList.get(ArrayList.java:433)\r\n\tat com.cybertek.utilities.DBUtils.getRowMap(DBUtils.java:83)\r\n\tat com.cybertek.stepdefs.ApiStepDefs.database_Query_should_have_and(ApiStepDefs.java:107)\r\n\tat ✽.Database Query should have  \"11311\" and \"Breathless\"(file:src/test/resources/features/api/teams.feature:11)\r\n",
+  "status": "failed"
+});
+formatter.after({
   "status": "passed"
 });
 formatter.scenario({
@@ -846,8 +931,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -899,6 +990,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -906,8 +1000,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -959,6 +1059,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -966,8 +1069,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1019,6 +1128,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -1026,8 +1138,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1079,6 +1197,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -1086,8 +1207,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1139,6 +1266,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -1146,8 +1276,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1199,6 +1335,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -1206,8 +1345,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1259,6 +1404,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -1266,8 +1414,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1319,6 +1473,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -1326,8 +1483,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1379,6 +1542,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -1386,8 +1552,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1439,6 +1611,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -1446,8 +1621,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1499,6 +1680,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -1506,8 +1690,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1557,6 +1747,10 @@ formatter.match({
   "location": "ApiStepDefs.database_Query_should_have_and(String,String)"
 });
 formatter.result({
+  "error_message": "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:657)\r\n\tat java.util.ArrayList.get(ArrayList.java:433)\r\n\tat com.cybertek.utilities.DBUtils.getRowMap(DBUtils.java:83)\r\n\tat com.cybertek.stepdefs.ApiStepDefs.database_Query_should_have_and(ApiStepDefs.java:107)\r\n\tat ✽.Database Query should have  \"11383\" and \"Untraceable\"(file:src/test/resources/features/api/teams.feature:11)\r\n",
+  "status": "failed"
+});
+formatter.after({
   "status": "passed"
 });
 formatter.scenario({
@@ -1566,8 +1760,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1619,6 +1819,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -1626,8 +1829,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1679,6 +1888,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -1686,8 +1898,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1739,6 +1957,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -1746,8 +1967,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1799,6 +2026,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -1806,8 +2036,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1859,6 +2095,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -1866,8 +2105,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1919,6 +2164,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -1926,8 +2174,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -1979,6 +2233,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -1986,8 +2243,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -2039,6 +2302,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -2046,8 +2312,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -2099,6 +2371,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -2106,8 +2381,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -2159,6 +2440,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -2166,8 +2450,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -2219,6 +2509,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -2226,8 +2519,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -2279,6 +2578,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -2286,8 +2588,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -2339,6 +2647,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -2346,8 +2657,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -2397,6 +2714,10 @@ formatter.match({
   "location": "ApiStepDefs.database_Query_should_have_and(String,String)"
 });
 formatter.result({
+  "error_message": "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:657)\r\n\tat java.util.ArrayList.get(ArrayList.java:433)\r\n\tat com.cybertek.utilities.DBUtils.getRowMap(DBUtils.java:83)\r\n\tat com.cybertek.stepdefs.ApiStepDefs.database_Query_should_have_and(ApiStepDefs.java:107)\r\n\tat ✽.Database Query should have  \"11467\" and \"Kicking\"(file:src/test/resources/features/api/teams.feature:11)\r\n",
+  "status": "failed"
+});
+formatter.after({
   "status": "passed"
 });
 formatter.scenario({
@@ -2406,8 +2727,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -2459,6 +2786,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -2466,8 +2796,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -2517,6 +2853,10 @@ formatter.match({
   "location": "ApiStepDefs.database_Query_should_have_and(String,String)"
 });
 formatter.result({
+  "error_message": "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:657)\r\n\tat java.util.ArrayList.get(ArrayList.java:433)\r\n\tat com.cybertek.utilities.DBUtils.getRowMap(DBUtils.java:83)\r\n\tat com.cybertek.stepdefs.ApiStepDefs.database_Query_should_have_and(ApiStepDefs.java:107)\r\n\tat ✽.Database Query should have  \"11479\" and \"CoolasIce\"(file:src/test/resources/features/api/teams.feature:11)\r\n",
+  "status": "failed"
+});
+formatter.after({
   "status": "passed"
 });
 formatter.scenario({
@@ -2526,8 +2866,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -2579,6 +2925,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -2586,8 +2935,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -2639,6 +2994,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -2646,8 +3004,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -2699,6 +3063,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -2706,8 +3073,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -2759,6 +3132,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 point team info verification,Api and Database",
   "description": "",
@@ -2766,8 +3142,14 @@ formatter.scenario({
   "tags": [
     {
       "name": "@teams"
+    },
+    {
+      "name": "@db"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User logged in to Bookit api as teacher role",
@@ -2817,6 +3199,9 @@ formatter.match({
   "location": "ApiStepDefs.database_Query_should_have_and(String,String)"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });
