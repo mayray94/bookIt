@@ -1,22 +1,44 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-02-19T19:30:02.717Z",
-        "line": 14,
+        "start_timestamp": "2022-02-16T02:31:11.331Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1090924000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 15,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2000700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 8852020700,
+              "duration": 2266024500,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -25,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 424101899,
+              "duration": 400919400,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11267\"",
             "match": {
               "arguments": [
@@ -47,10 +69,10 @@
           },
           {
             "result": {
-              "duration": 827700,
+              "duration": 747900,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -65,10 +87,10 @@
           },
           {
             "result": {
-              "duration": 65400,
+              "duration": 9843400,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"BugBusters\" in response",
             "match": {
               "arguments": [
@@ -83,10 +105,10 @@
           },
           {
             "result": {
-              "duration": 22100,
+              "duration": 106210300,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11267\" and \"BugBusters\"",
             "match": {
               "arguments": [
@@ -107,24 +129,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:12.020Z",
-        "line": 15,
+        "start_timestamp": "2022-02-16T02:31:15.244Z",
+        "before": [
+          {
+            "result": {
+              "duration": 716298400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 16,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 543100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 626547200,
+              "duration": 1047055600,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -133,10 +180,10 @@
           },
           {
             "result": {
-              "duration": 375905501,
+              "duration": 344929100,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11269\"",
             "match": {
               "arguments": [
@@ -155,10 +202,10 @@
           },
           {
             "result": {
-              "duration": 52800,
+              "duration": 203100,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -173,10 +220,10 @@
           },
           {
             "result": {
-              "duration": 30800,
+              "duration": 9463100,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"PhantomPain\" in response",
             "match": {
               "arguments": [
@@ -191,10 +238,10 @@
           },
           {
             "result": {
-              "duration": 20500,
+              "duration": 58376400,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11269\" and \"PhantomPain\"",
             "match": {
               "arguments": [
@@ -215,24 +262,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:13.024Z",
-        "line": 16,
+        "start_timestamp": "2022-02-16T02:31:17.425Z",
+        "before": [
+          {
+            "result": {
+              "duration": 539996500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 17,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 315100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 497826600,
+              "duration": 430421400,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -241,10 +313,10 @@
           },
           {
             "result": {
-              "duration": 398849099,
+              "duration": 357335700,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11275\"",
             "match": {
               "arguments": [
@@ -263,10 +335,10 @@
           },
           {
             "result": {
-              "duration": 62899,
+              "duration": 197800,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -281,10 +353,10 @@
           },
           {
             "result": {
-              "duration": 39600,
+              "duration": 11145600,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"Scarface\" in response",
             "match": {
               "arguments": [
@@ -299,10 +371,10 @@
           },
           {
             "result": {
-              "duration": 22400,
+              "duration": 61122000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11275\" and \"Scarface\"",
             "match": {
               "arguments": [
@@ -323,24 +395,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:13.921Z",
-        "line": 17,
+        "start_timestamp": "2022-02-16T02:31:18.827Z",
+        "before": [
+          {
+            "result": {
+              "duration": 506604400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 18,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 386200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 487315500,
+              "duration": 758332900,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -349,10 +446,10 @@
           },
           {
             "result": {
-              "duration": 416664400,
+              "duration": 373962800,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11281\"",
             "match": {
               "arguments": [
@@ -371,10 +468,10 @@
           },
           {
             "result": {
-              "duration": 54100,
+              "duration": 354200,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -389,10 +486,10 @@
           },
           {
             "result": {
-              "duration": 29500,
+              "duration": 11096700,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"TheyBite\" in response",
             "match": {
               "arguments": [
@@ -407,10 +504,10 @@
           },
           {
             "result": {
-              "duration": 17801,
+              "duration": 62126000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11281\" and \"TheyBite\"",
             "match": {
               "arguments": [
@@ -431,24 +528,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:14.826Z",
-        "line": 18,
+        "start_timestamp": "2022-02-16T02:31:20.543Z",
+        "before": [
+          {
+            "result": {
+              "duration": 517205600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 19,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 514300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 582270499,
+              "duration": 565083100,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -457,10 +579,10 @@
           },
           {
             "result": {
-              "duration": 360698601,
+              "duration": 349065600,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11287\"",
             "match": {
               "arguments": [
@@ -479,10 +601,10 @@
           },
           {
             "result": {
-              "duration": 66001,
+              "duration": 321700,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -497,10 +619,10 @@
           },
           {
             "result": {
-              "duration": 33800,
+              "duration": 12179100,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"LoafandCamouflage\" in response",
             "match": {
               "arguments": [
@@ -515,10 +637,10 @@
           },
           {
             "result": {
-              "duration": 23701,
+              "duration": 73706700,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11287\" and \"LoafandCamouflage\"",
             "match": {
               "arguments": [
@@ -539,24 +661,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:15.770Z",
-        "line": 19,
+        "start_timestamp": "2022-02-16T02:31:22.063Z",
+        "before": [
+          {
+            "result": {
+              "duration": 504656100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 20,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 338800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 520917700,
+              "duration": 1588948400,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -565,10 +712,10 @@
           },
           {
             "result": {
-              "duration": 419587899,
+              "duration": 430430400,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11293\"",
             "match": {
               "arguments": [
@@ -587,10 +734,10 @@
           },
           {
             "result": {
-              "duration": 58800,
+              "duration": 192600,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -605,10 +752,10 @@
           },
           {
             "result": {
-              "duration": 776301,
+              "duration": 12079000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"TeaForTwo\" in response",
             "match": {
               "arguments": [
@@ -623,10 +770,10 @@
           },
           {
             "result": {
-              "duration": 36101,
+              "duration": 64654100,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11293\" and \"TeaForTwo\"",
             "match": {
               "arguments": [
@@ -647,24 +794,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:16.711Z",
-        "line": 20,
+        "start_timestamp": "2022-02-16T02:31:24.666Z",
+        "before": [
+          {
+            "result": {
+              "duration": 489835200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 21,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 1016600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 506740300,
+              "duration": 999700400,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -673,10 +845,10 @@
           },
           {
             "result": {
-              "duration": 437600901,
+              "duration": 336251500,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11299\"",
             "match": {
               "arguments": [
@@ -695,10 +867,10 @@
           },
           {
             "result": {
-              "duration": 63100,
+              "duration": 169600,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -713,10 +885,10 @@
           },
           {
             "result": {
-              "duration": 34800,
+              "duration": 8866500,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"Galaxina\" in response",
             "match": {
               "arguments": [
@@ -731,10 +903,10 @@
           },
           {
             "result": {
-              "duration": 24301,
+              "duration": 59541500,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11299\" and \"Galaxina\"",
             "match": {
               "arguments": [
@@ -755,24 +927,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:17.657Z",
-        "line": 21,
+        "start_timestamp": "2022-02-16T02:31:26.564Z",
+        "before": [
+          {
+            "result": {
+              "duration": 521048400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 22,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 451300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 542481100,
+              "duration": 495762700,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -781,10 +978,10 @@
           },
           {
             "result": {
-              "duration": 437373200,
+              "duration": 392127700,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11305\"",
             "match": {
               "arguments": [
@@ -803,10 +1000,10 @@
           },
           {
             "result": {
-              "duration": 70100,
+              "duration": 185100,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -821,10 +1018,10 @@
           },
           {
             "result": {
-              "duration": 38000,
+              "duration": 8985400,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"GangsofWasseypur\" in response",
             "match": {
               "arguments": [
@@ -839,10 +1036,10 @@
           },
           {
             "result": {
-              "duration": 22701,
+              "duration": 61665600,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11305\" and \"GangsofWasseypur\"",
             "match": {
               "arguments": [
@@ -863,24 +1060,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:18.637Z",
-        "line": 22,
+        "start_timestamp": "2022-02-16T02:31:28.047Z",
+        "before": [
+          {
+            "result": {
+              "duration": 360649200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 23,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 52700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 657233801,
+              "duration": 547329300,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -889,10 +1111,10 @@
           },
           {
             "result": {
-              "duration": 433617901,
+              "duration": 382241500,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11311\"",
             "match": {
               "arguments": [
@@ -911,10 +1133,10 @@
           },
           {
             "result": {
-              "duration": 55699,
+              "duration": 191200,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -929,10 +1151,10 @@
           },
           {
             "result": {
-              "duration": 27600,
+              "duration": 7296900,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"Breathless\" in response",
             "match": {
               "arguments": [
@@ -947,10 +1169,11 @@
           },
           {
             "result": {
-              "duration": 16500,
-              "status": "passed"
+              "error_message": "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:657)\r\n\tat java.util.ArrayList.get(ArrayList.java:433)\r\n\tat com.cybertek.utilities.DBUtils.getRowMap(DBUtils.java:83)\r\n\tat com.cybertek.stepdefs.ApiStepDefs.database_Query_should_have_and(ApiStepDefs.java:107)\r\n\tat ✽.Database Query should have  \"11311\" and \"Breathless\"(file:src/test/resources/features/api/teams.feature:11)\r\n",
+              "duration": 3286500,
+              "status": "failed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11311\" and \"Breathless\"",
             "match": {
               "arguments": [
@@ -971,24 +1194,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:19.728Z",
-        "line": 23,
+        "start_timestamp": "2022-02-16T02:31:29.354Z",
+        "before": [
+          {
+            "result": {
+              "duration": 487865200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 24,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 680900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 616102200,
+              "duration": 512726400,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -997,10 +1245,10 @@
           },
           {
             "result": {
-              "duration": 382776300,
+              "duration": 326652100,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11317\"",
             "match": {
               "arguments": [
@@ -1019,10 +1267,10 @@
           },
           {
             "result": {
-              "duration": 71201,
+              "duration": 180700,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -1037,10 +1285,10 @@
           },
           {
             "result": {
-              "duration": 35800,
+              "duration": 7873000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"Fountain\" in response",
             "match": {
               "arguments": [
@@ -1055,10 +1303,10 @@
           },
           {
             "result": {
-              "duration": 23800,
+              "duration": 114856000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11317\" and \"Fountain\"",
             "match": {
               "arguments": [
@@ -1079,24 +1327,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:20.727Z",
-        "line": 24,
+        "start_timestamp": "2022-02-16T02:31:30.807Z",
+        "before": [
+          {
+            "result": {
+              "duration": 607398200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 25,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;12",
+        "after": [
+          {
+            "result": {
+              "duration": 321300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 602526100,
+              "duration": 766535400,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -1105,10 +1378,10 @@
           },
           {
             "result": {
-              "duration": 426260801,
+              "duration": 342600300,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11323\"",
             "match": {
               "arguments": [
@@ -1127,10 +1400,10 @@
           },
           {
             "result": {
-              "duration": 71000,
+              "duration": 180800,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -1145,10 +1418,10 @@
           },
           {
             "result": {
-              "duration": 38000,
+              "duration": 6760600,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"Volga\" in response",
             "match": {
               "arguments": [
@@ -1163,10 +1436,10 @@
           },
           {
             "result": {
-              "duration": 22001,
+              "duration": 61164800,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11323\" and \"Volga\"",
             "match": {
               "arguments": [
@@ -1187,24 +1460,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:21.757Z",
-        "line": 25,
+        "start_timestamp": "2022-02-16T02:31:32.594Z",
+        "before": [
+          {
+            "result": {
+              "duration": 514826900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 26,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;13",
+        "after": [
+          {
+            "result": {
+              "duration": 390400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 479480400,
+              "duration": 1090899300,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -1213,10 +1511,10 @@
           },
           {
             "result": {
-              "duration": 622073101,
+              "duration": 373269700,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11329\"",
             "match": {
               "arguments": [
@@ -1235,10 +1533,10 @@
           },
           {
             "result": {
-              "duration": 67200,
+              "duration": 395200,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -1253,10 +1551,10 @@
           },
           {
             "result": {
-              "duration": 40700,
+              "duration": 13693300,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"BadRonald\" in response",
             "match": {
               "arguments": [
@@ -1271,10 +1569,10 @@
           },
           {
             "result": {
-              "duration": 22500,
+              "duration": 58387500,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11329\" and \"BadRonald\"",
             "match": {
               "arguments": [
@@ -1295,24 +1593,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:22.859Z",
-        "line": 26,
+        "start_timestamp": "2022-02-16T02:31:34.648Z",
+        "before": [
+          {
+            "result": {
+              "duration": 477852100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 27,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;14",
+        "after": [
+          {
+            "result": {
+              "duration": 382600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 449681000,
+              "duration": 858291700,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -1321,10 +1644,10 @@
           },
           {
             "result": {
-              "duration": 370303799,
+              "duration": 334834900,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11335\"",
             "match": {
               "arguments": [
@@ -1343,10 +1666,10 @@
           },
           {
             "result": {
-              "duration": 59600,
+              "duration": 191000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -1361,10 +1684,10 @@
           },
           {
             "result": {
-              "duration": 40501,
+              "duration": 6524200,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"RiseofCatherinetheGreat\" in response",
             "match": {
               "arguments": [
@@ -1379,10 +1702,10 @@
           },
           {
             "result": {
-              "duration": 23300,
+              "duration": 59354600,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11335\" and \"RiseofCatherinetheGreat\"",
             "match": {
               "arguments": [
@@ -1403,24 +1726,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:23.679Z",
-        "line": 27,
+        "start_timestamp": "2022-02-16T02:31:36.387Z",
+        "before": [
+          {
+            "result": {
+              "duration": 492591900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 28,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;15",
+        "after": [
+          {
+            "result": {
+              "duration": 418200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 948686800,
+              "duration": 474514500,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -1429,10 +1777,10 @@
           },
           {
             "result": {
-              "duration": 439170800,
+              "duration": 486515400,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11341\"",
             "match": {
               "arguments": [
@@ -1451,10 +1799,10 @@
           },
           {
             "result": {
-              "duration": 89200,
+              "duration": 321700,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -1469,10 +1817,10 @@
           },
           {
             "result": {
-              "duration": 26600,
+              "duration": 9399800,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"Borderland\" in response",
             "match": {
               "arguments": [
@@ -1487,10 +1835,10 @@
           },
           {
             "result": {
-              "duration": 12300,
+              "duration": 59074800,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11341\" and \"Borderland\"",
             "match": {
               "arguments": [
@@ -1511,24 +1859,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:25.068Z",
-        "line": 28,
+        "start_timestamp": "2022-02-16T02:31:37.913Z",
+        "before": [
+          {
+            "result": {
+              "duration": 471153000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 29,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;16",
+        "after": [
+          {
+            "result": {
+              "duration": 388700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 563588400,
+              "duration": 672345300,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -1537,10 +1910,10 @@
           },
           {
             "result": {
-              "duration": 366848700,
+              "duration": 341330000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11347\"",
             "match": {
               "arguments": [
@@ -1559,10 +1932,10 @@
           },
           {
             "result": {
-              "duration": 145599,
+              "duration": 183000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -1577,10 +1950,10 @@
           },
           {
             "result": {
-              "duration": 66200,
+              "duration": 8920600,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"Stardom\" in response",
             "match": {
               "arguments": [
@@ -1595,10 +1968,10 @@
           },
           {
             "result": {
-              "duration": 12800,
+              "duration": 61573300,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11347\" and \"Stardom\"",
             "match": {
               "arguments": [
@@ -1619,24 +1992,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:25.999Z",
-        "line": 29,
+        "start_timestamp": "2022-02-16T02:31:39.470Z",
+        "before": [
+          {
+            "result": {
+              "duration": 503621100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 30,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;17",
+        "after": [
+          {
+            "result": {
+              "duration": 1045700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 467648701,
+              "duration": 546048600,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -1645,10 +2043,10 @@
           },
           {
             "result": {
-              "duration": 365384999,
+              "duration": 378970600,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11353\"",
             "match": {
               "arguments": [
@@ -1667,10 +2065,10 @@
           },
           {
             "result": {
-              "duration": 391600,
+              "duration": 449800,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -1685,10 +2083,10 @@
           },
           {
             "result": {
-              "duration": 181200,
+              "duration": 8898200,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"CatBallou\" in response",
             "match": {
               "arguments": [
@@ -1703,10 +2101,10 @@
           },
           {
             "result": {
-              "duration": 131500,
+              "duration": 67620500,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11353\" and \"CatBallou\"",
             "match": {
               "arguments": [
@@ -1727,24 +2125,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:26.833Z",
-        "line": 30,
+        "start_timestamp": "2022-02-16T02:31:40.978Z",
+        "before": [
+          {
+            "result": {
+              "duration": 586766300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 31,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;18",
+        "after": [
+          {
+            "result": {
+              "duration": 842600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 515194901,
+              "duration": 555724800,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -1753,10 +2176,10 @@
           },
           {
             "result": {
-              "duration": 391430601,
+              "duration": 347143500,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11359\"",
             "match": {
               "arguments": [
@@ -1775,10 +2198,10 @@
           },
           {
             "result": {
-              "duration": 101400,
+              "duration": 218000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -1793,10 +2216,10 @@
           },
           {
             "result": {
-              "duration": 57401,
+              "duration": 7602300,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"BadBoys\" in response",
             "match": {
               "arguments": [
@@ -1811,10 +2234,10 @@
           },
           {
             "result": {
-              "duration": 27200,
+              "duration": 66995100,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11359\" and \"BadBoys\"",
             "match": {
               "arguments": [
@@ -1835,24 +2258,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:27.741Z",
-        "line": 31,
+        "start_timestamp": "2022-02-16T02:31:42.546Z",
+        "before": [
+          {
+            "result": {
+              "duration": 554934500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 32,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;19",
+        "after": [
+          {
+            "result": {
+              "duration": 264800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 881448300,
+              "duration": 1298587100,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -1861,10 +2309,10 @@
           },
           {
             "result": {
-              "duration": 400108800,
+              "duration": 492798500,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11365\"",
             "match": {
               "arguments": [
@@ -1883,10 +2331,10 @@
           },
           {
             "result": {
-              "duration": 33100,
+              "duration": 174200,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -1901,10 +2349,10 @@
           },
           {
             "result": {
-              "duration": 16900,
+              "duration": 6346500,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"FearIsland\" in response",
             "match": {
               "arguments": [
@@ -1919,10 +2367,10 @@
           },
           {
             "result": {
-              "duration": 9401,
+              "duration": 60634700,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11365\" and \"FearIsland\"",
             "match": {
               "arguments": [
@@ -1943,24 +2391,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:29.023Z",
-        "line": 32,
+        "start_timestamp": "2022-02-16T02:31:44.962Z",
+        "before": [
+          {
+            "result": {
+              "duration": 500430800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 33,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;20",
+        "after": [
+          {
+            "result": {
+              "duration": 427700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 815681600,
+              "duration": 681097900,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -1969,10 +2442,10 @@
           },
           {
             "result": {
-              "duration": 372651901,
+              "duration": 391278400,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11371\"",
             "match": {
               "arguments": [
@@ -1991,10 +2464,10 @@
           },
           {
             "result": {
-              "duration": 34199,
+              "duration": 369900,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -2009,10 +2482,10 @@
           },
           {
             "result": {
-              "duration": 18101,
+              "duration": 35924100,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"AnniversaryParty\" in response",
             "match": {
               "arguments": [
@@ -2027,10 +2500,10 @@
           },
           {
             "result": {
-              "duration": 10000,
+              "duration": 60618000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11371\" and \"AnniversaryParty\"",
             "match": {
               "arguments": [
@@ -2051,24 +2524,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:30.212Z",
-        "line": 33,
+        "start_timestamp": "2022-02-16T02:31:46.635Z",
+        "before": [
+          {
+            "result": {
+              "duration": 469799600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 34,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;21",
+        "after": [
+          {
+            "result": {
+              "duration": 446600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 458097000,
+              "duration": 428732800,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -2077,10 +2575,10 @@
           },
           {
             "result": {
-              "duration": 353535500,
+              "duration": 325907500,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11377\"",
             "match": {
               "arguments": [
@@ -2099,10 +2597,10 @@
           },
           {
             "result": {
-              "duration": 32900,
+              "duration": 214300,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -2117,10 +2615,10 @@
           },
           {
             "result": {
-              "duration": 18100,
+              "duration": 6966700,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"Jumanji\" in response",
             "match": {
               "arguments": [
@@ -2135,10 +2633,10 @@
           },
           {
             "result": {
-              "duration": 10100,
+              "duration": 66378800,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11377\" and \"Jumanji\"",
             "match": {
               "arguments": [
@@ -2159,24 +2657,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:31.024Z",
-        "line": 34,
+        "start_timestamp": "2022-02-16T02:31:47.936Z",
+        "before": [
+          {
+            "result": {
+              "duration": 359584600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 35,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;22",
+        "after": [
+          {
+            "result": {
+              "duration": 56100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 412579499,
+              "duration": 924301700,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -2185,10 +2708,10 @@
           },
           {
             "result": {
-              "duration": 355852301,
+              "duration": 340229100,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11383\"",
             "match": {
               "arguments": [
@@ -2207,10 +2730,10 @@
           },
           {
             "result": {
-              "duration": 35499,
+              "duration": 249100,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -2225,10 +2748,10 @@
           },
           {
             "result": {
-              "duration": 21099,
+              "duration": 14129900,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"Untraceable\" in response",
             "match": {
               "arguments": [
@@ -2243,10 +2766,11 @@
           },
           {
             "result": {
-              "duration": 13900,
-              "status": "passed"
+              "error_message": "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:657)\r\n\tat java.util.ArrayList.get(ArrayList.java:433)\r\n\tat com.cybertek.utilities.DBUtils.getRowMap(DBUtils.java:83)\r\n\tat com.cybertek.stepdefs.ApiStepDefs.database_Query_should_have_and(ApiStepDefs.java:107)\r\n\tat ✽.Database Query should have  \"11383\" and \"Untraceable\"(file:src/test/resources/features/api/teams.feature:11)\r\n",
+              "duration": 1372900,
+              "status": "failed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11383\" and \"Untraceable\"",
             "match": {
               "arguments": [
@@ -2267,24 +2791,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:31.793Z",
-        "line": 35,
+        "start_timestamp": "2022-02-16T02:31:49.578Z",
+        "before": [
+          {
+            "result": {
+              "duration": 482826000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 36,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;23",
+        "after": [
+          {
+            "result": {
+              "duration": 351100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 430050600,
+              "duration": 966986800,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -2293,10 +2842,10 @@
           },
           {
             "result": {
-              "duration": 365470000,
+              "duration": 336492200,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11389\"",
             "match": {
               "arguments": [
@@ -2315,10 +2864,10 @@
           },
           {
             "result": {
-              "duration": 45300,
+              "duration": 161800,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -2333,10 +2882,10 @@
           },
           {
             "result": {
-              "duration": 18700,
+              "duration": 8908700,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"BlingRing\" in response",
             "match": {
               "arguments": [
@@ -2351,10 +2900,10 @@
           },
           {
             "result": {
-              "duration": 9300,
+              "duration": 58001500,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11389\" and \"BlingRing\"",
             "match": {
               "arguments": [
@@ -2375,24 +2924,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:32.588Z",
-        "line": 36,
+        "start_timestamp": "2022-02-16T02:31:51.434Z",
+        "before": [
+          {
+            "result": {
+              "duration": 574512600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 37,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;24",
+        "after": [
+          {
+            "result": {
+              "duration": 354400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 558238000,
+              "duration": 1147534800,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -2401,10 +2975,10 @@
           },
           {
             "result": {
-              "duration": 394687199,
+              "duration": 341811300,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11395\"",
             "match": {
               "arguments": [
@@ -2423,10 +2997,10 @@
           },
           {
             "result": {
-              "duration": 39100,
+              "duration": 238900,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -2441,10 +3015,10 @@
           },
           {
             "result": {
-              "duration": 24600,
+              "duration": 8868200,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"OctoberSky\" in response",
             "match": {
               "arguments": [
@@ -2459,10 +3033,10 @@
           },
           {
             "result": {
-              "duration": 11700,
+              "duration": 56673400,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11395\" and \"OctoberSky\"",
             "match": {
               "arguments": [
@@ -2483,24 +3057,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:33.541Z",
-        "line": 37,
+        "start_timestamp": "2022-02-16T02:31:53.567Z",
+        "before": [
+          {
+            "result": {
+              "duration": 472115200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 38,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;25",
+        "after": [
+          {
+            "result": {
+              "duration": 311500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 465839400,
+              "duration": 451952000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -2509,10 +3108,10 @@
           },
           {
             "result": {
-              "duration": 384671601,
+              "duration": 370048900,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11401\"",
             "match": {
               "arguments": [
@@ -2531,10 +3130,10 @@
           },
           {
             "result": {
-              "duration": 59400,
+              "duration": 257200,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -2549,10 +3148,10 @@
           },
           {
             "result": {
-              "duration": 16100,
+              "duration": 8161700,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"Angel\" in response",
             "match": {
               "arguments": [
@@ -2567,10 +3166,10 @@
           },
           {
             "result": {
-              "duration": 9500,
+              "duration": 58002700,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11401\" and \"Angel\"",
             "match": {
               "arguments": [
@@ -2591,24 +3190,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:34.392Z",
-        "line": 38,
+        "start_timestamp": "2022-02-16T02:31:54.930Z",
+        "before": [
+          {
+            "result": {
+              "duration": 492110600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 39,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;26",
+        "after": [
+          {
+            "result": {
+              "duration": 507400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 531280000,
+              "duration": 405783900,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -2617,10 +3241,10 @@
           },
           {
             "result": {
-              "duration": 345369101,
+              "duration": 313238100,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11407\"",
             "match": {
               "arguments": [
@@ -2639,10 +3263,10 @@
           },
           {
             "result": {
-              "duration": 63299,
+              "duration": 178500,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -2657,10 +3281,10 @@
           },
           {
             "result": {
-              "duration": 37099,
+              "duration": 5988300,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"StoryofUs\" in response",
             "match": {
               "arguments": [
@@ -2675,10 +3299,10 @@
           },
           {
             "result": {
-              "duration": 30400,
+              "duration": 60829900,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11407\" and \"StoryofUs\"",
             "match": {
               "arguments": [
@@ -2699,24 +3323,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:35.269Z",
-        "line": 39,
+        "start_timestamp": "2022-02-16T02:31:56.210Z",
+        "before": [
+          {
+            "result": {
+              "duration": 476712300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 40,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;27",
+        "after": [
+          {
+            "result": {
+              "duration": 228100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 480027301,
+              "duration": 454862400,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -2725,10 +3374,10 @@
           },
           {
             "result": {
-              "duration": 354702900,
+              "duration": 339907600,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11413\"",
             "match": {
               "arguments": [
@@ -2747,10 +3396,10 @@
           },
           {
             "result": {
-              "duration": 64500,
+              "duration": 372700,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -2765,10 +3414,10 @@
           },
           {
             "result": {
-              "duration": 26900,
+              "duration": 10746000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"LifeItself\" in response",
             "match": {
               "arguments": [
@@ -2783,10 +3432,10 @@
           },
           {
             "result": {
-              "duration": 11299,
+              "duration": 57282800,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11413\" and \"LifeItself\"",
             "match": {
               "arguments": [
@@ -2807,24 +3456,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:36.105Z",
-        "line": 40,
+        "start_timestamp": "2022-02-16T02:31:57.553Z",
+        "before": [
+          {
+            "result": {
+              "duration": 620995700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 41,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;28",
+        "after": [
+          {
+            "result": {
+              "duration": 274300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 465871900,
+              "duration": 576790200,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -2833,10 +3507,10 @@
           },
           {
             "result": {
-              "duration": 335975800,
+              "duration": 354560700,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11419\"",
             "match": {
               "arguments": [
@@ -2855,10 +3529,10 @@
           },
           {
             "result": {
-              "duration": 56599,
+              "duration": 222000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -2873,10 +3547,10 @@
           },
           {
             "result": {
-              "duration": 31500,
+              "duration": 6242300,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"Stay\" in response",
             "match": {
               "arguments": [
@@ -2891,10 +3565,10 @@
           },
           {
             "result": {
-              "duration": 14399,
+              "duration": 58033300,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11419\" and \"Stay\"",
             "match": {
               "arguments": [
@@ -2915,24 +3589,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:36.907Z",
-        "line": 41,
+        "start_timestamp": "2022-02-16T02:31:59.171Z",
+        "before": [
+          {
+            "result": {
+              "duration": 468582200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 42,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;29",
+        "after": [
+          {
+            "result": {
+              "duration": 253100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 521611999,
+              "duration": 564513200,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -2941,10 +3640,10 @@
           },
           {
             "result": {
-              "duration": 351494000,
+              "duration": 319494600,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11425\"",
             "match": {
               "arguments": [
@@ -2963,10 +3662,10 @@
           },
           {
             "result": {
-              "duration": 54501,
+              "duration": 153800,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -2981,10 +3680,10 @@
           },
           {
             "result": {
-              "duration": 34701,
+              "duration": 5237900,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"Motorama\" in response",
             "match": {
               "arguments": [
@@ -2999,10 +3698,10 @@
           },
           {
             "result": {
-              "duration": 15000,
+              "duration": 59421200,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11425\" and \"Motorama\"",
             "match": {
               "arguments": [
@@ -3023,24 +3722,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:37.780Z",
-        "line": 42,
+        "start_timestamp": "2022-02-16T02:32:00.590Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1464423000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 43,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;30",
+        "after": [
+          {
+            "result": {
+              "duration": 547000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 499070700,
+              "duration": 757127600,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -3049,10 +3773,10 @@
           },
           {
             "result": {
-              "duration": 363442400,
+              "duration": 404979300,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11431\"",
             "match": {
               "arguments": [
@@ -3071,10 +3795,10 @@
           },
           {
             "result": {
-              "duration": 59800,
+              "duration": 306300,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -3089,10 +3813,10 @@
           },
           {
             "result": {
-              "duration": 46300,
+              "duration": 7378000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"BlitheSpirit\" in response",
             "match": {
               "arguments": [
@@ -3107,10 +3831,10 @@
           },
           {
             "result": {
-              "duration": 17900,
+              "duration": 59987100,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11431\" and \"BlitheSpirit\"",
             "match": {
               "arguments": [
@@ -3131,24 +3855,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:38.644Z",
-        "line": 43,
+        "start_timestamp": "2022-02-16T02:32:03.288Z",
+        "before": [
+          {
+            "result": {
+              "duration": 567083000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 44,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;31",
+        "after": [
+          {
+            "result": {
+              "duration": 313100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 532315700,
+              "duration": 413974600,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -3157,10 +3906,10 @@
           },
           {
             "result": {
-              "duration": 480575700,
+              "duration": 330646800,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11437\"",
             "match": {
               "arguments": [
@@ -3179,10 +3928,10 @@
           },
           {
             "result": {
-              "duration": 60600,
+              "duration": 171900,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -3197,10 +3946,10 @@
           },
           {
             "result": {
-              "duration": 37501,
+              "duration": 7823700,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"Samurai\" in response",
             "match": {
               "arguments": [
@@ -3215,10 +3964,10 @@
           },
           {
             "result": {
-              "duration": 22300,
+              "duration": 57839000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11437\" and \"Samurai\"",
             "match": {
               "arguments": [
@@ -3239,24 +3988,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:39.657Z",
-        "line": 44,
+        "start_timestamp": "2022-02-16T02:32:04.667Z",
+        "before": [
+          {
+            "result": {
+              "duration": 481580400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 45,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;32",
+        "after": [
+          {
+            "result": {
+              "duration": 240100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 441771900,
+              "duration": 468622600,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -3265,10 +4039,10 @@
           },
           {
             "result": {
-              "duration": 382819500,
+              "duration": 345341800,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11443\"",
             "match": {
               "arguments": [
@@ -3287,10 +4061,10 @@
           },
           {
             "result": {
-              "duration": 70700,
+              "duration": 258300,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -3305,10 +4079,10 @@
           },
           {
             "result": {
-              "duration": 34900,
+              "duration": 7003800,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"HighSierra\" in response",
             "match": {
               "arguments": [
@@ -3323,10 +4097,10 @@
           },
           {
             "result": {
-              "duration": 18500,
+              "duration": 57626600,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11443\" and \"HighSierra\"",
             "match": {
               "arguments": [
@@ -3347,24 +4121,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:40.482Z",
-        "line": 45,
+        "start_timestamp": "2022-02-16T02:32:06.030Z",
+        "before": [
+          {
+            "result": {
+              "duration": 500171300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 46,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;33",
+        "after": [
+          {
+            "result": {
+              "duration": 586500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 497283700,
+              "duration": 423968600,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -3373,10 +4172,10 @@
           },
           {
             "result": {
-              "duration": 406205400,
+              "duration": 348451200,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11449\"",
             "match": {
               "arguments": [
@@ -3395,10 +4194,10 @@
           },
           {
             "result": {
-              "duration": 57099,
+              "duration": 204100,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -3413,10 +4212,10 @@
           },
           {
             "result": {
-              "duration": 33200,
+              "duration": 46597100,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"CurbDance\" in response",
             "match": {
               "arguments": [
@@ -3431,10 +4230,10 @@
           },
           {
             "result": {
-              "duration": 19500,
+              "duration": 75468000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11449\" and \"CurbDance\"",
             "match": {
               "arguments": [
@@ -3455,24 +4254,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:41.387Z",
-        "line": 46,
+        "start_timestamp": "2022-02-16T02:32:07.427Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1012878700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 47,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;34",
+        "after": [
+          {
+            "result": {
+              "duration": 347900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 509089201,
+              "duration": 730736200,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -3481,10 +4305,10 @@
           },
           {
             "result": {
-              "duration": 389867101,
+              "duration": 325646500,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11455\"",
             "match": {
               "arguments": [
@@ -3503,10 +4327,10 @@
           },
           {
             "result": {
-              "duration": 53800,
+              "duration": 145200,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -3521,10 +4345,10 @@
           },
           {
             "result": {
-              "duration": 30900,
+              "duration": 9806400,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"Super\" in response",
             "match": {
               "arguments": [
@@ -3539,10 +4363,10 @@
           },
           {
             "result": {
-              "duration": 22800,
+              "duration": 64677100,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11455\" and \"Super\"",
             "match": {
               "arguments": [
@@ -3563,24 +4387,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:42.286Z",
-        "line": 47,
+        "start_timestamp": "2022-02-16T02:32:09.573Z",
+        "before": [
+          {
+            "result": {
+              "duration": 478484200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 48,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;35",
+        "after": [
+          {
+            "result": {
+              "duration": 300900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 504579199,
+              "duration": 539054000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -3589,10 +4438,10 @@
           },
           {
             "result": {
-              "duration": 396078599,
+              "duration": 356143800,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11461\"",
             "match": {
               "arguments": [
@@ -3611,10 +4460,10 @@
           },
           {
             "result": {
-              "duration": 68400,
+              "duration": 152600,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -3629,10 +4478,10 @@
           },
           {
             "result": {
-              "duration": 29799,
+              "duration": 6846400,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"Marjoe\" in response",
             "match": {
               "arguments": [
@@ -3647,10 +4496,10 @@
           },
           {
             "result": {
-              "duration": 25499,
+              "duration": 60683800,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11461\" and \"Marjoe\"",
             "match": {
               "arguments": [
@@ -3671,24 +4520,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:43.188Z",
-        "line": 48,
+        "start_timestamp": "2022-02-16T02:32:11.016Z",
+        "before": [
+          {
+            "result": {
+              "duration": 374682700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 49,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;36",
+        "after": [
+          {
+            "result": {
+              "duration": 91200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 574279800,
+              "duration": 747737500,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -3697,10 +4571,10 @@
           },
           {
             "result": {
-              "duration": 405714500,
+              "duration": 323004300,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11467\"",
             "match": {
               "arguments": [
@@ -3719,10 +4593,10 @@
           },
           {
             "result": {
-              "duration": 73201,
+              "duration": 156900,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -3737,10 +4611,10 @@
           },
           {
             "result": {
-              "duration": 34701,
+              "duration": 7703100,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"Kicking\" in response",
             "match": {
               "arguments": [
@@ -3755,10 +4629,11 @@
           },
           {
             "result": {
-              "duration": 360500,
-              "status": "passed"
+              "error_message": "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:657)\r\n\tat java.util.ArrayList.get(ArrayList.java:433)\r\n\tat com.cybertek.utilities.DBUtils.getRowMap(DBUtils.java:83)\r\n\tat com.cybertek.stepdefs.ApiStepDefs.database_Query_should_have_and(ApiStepDefs.java:107)\r\n\tat ✽.Database Query should have  \"11467\" and \"Kicking\"(file:src/test/resources/features/api/teams.feature:11)\r\n",
+              "duration": 2306400,
+              "status": "failed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11467\" and \"Kicking\"",
             "match": {
               "arguments": [
@@ -3779,24 +4654,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:44.168Z",
-        "line": 49,
+        "start_timestamp": "2022-02-16T02:32:12.475Z",
+        "before": [
+          {
+            "result": {
+              "duration": 520291400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 50,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;37",
+        "after": [
+          {
+            "result": {
+              "duration": 247200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 457149800,
+              "duration": 515968800,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -3805,10 +4705,10 @@
           },
           {
             "result": {
-              "duration": 399713700,
+              "duration": 329894500,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11473\"",
             "match": {
               "arguments": [
@@ -3827,10 +4727,10 @@
           },
           {
             "result": {
-              "duration": 58300,
+              "duration": 217400,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -3845,10 +4745,10 @@
           },
           {
             "result": {
-              "duration": 29700,
+              "duration": 5902400,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"HeartyPaws\" in response",
             "match": {
               "arguments": [
@@ -3863,10 +4763,10 @@
           },
           {
             "result": {
-              "duration": 20201,
+              "duration": 58970000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11473\" and \"HeartyPaws\"",
             "match": {
               "arguments": [
@@ -3887,24 +4787,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:45.026Z",
-        "line": 50,
+        "start_timestamp": "2022-02-16T02:32:13.908Z",
+        "before": [
+          {
+            "result": {
+              "duration": 407489900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 51,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;38",
+        "after": [
+          {
+            "result": {
+              "duration": 39600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 490047100,
+              "duration": 512560900,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -3913,10 +4838,10 @@
           },
           {
             "result": {
-              "duration": 496715600,
+              "duration": 373617200,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11479\"",
             "match": {
               "arguments": [
@@ -3935,10 +4860,10 @@
           },
           {
             "result": {
-              "duration": 54900,
+              "duration": 193100,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -3953,10 +4878,10 @@
           },
           {
             "result": {
-              "duration": 27900,
+              "duration": 13801100,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"CoolasIce\" in response",
             "match": {
               "arguments": [
@@ -3971,10 +4896,11 @@
           },
           {
             "result": {
-              "duration": 19600,
-              "status": "passed"
+              "error_message": "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:657)\r\n\tat java.util.ArrayList.get(ArrayList.java:433)\r\n\tat com.cybertek.utilities.DBUtils.getRowMap(DBUtils.java:83)\r\n\tat com.cybertek.stepdefs.ApiStepDefs.database_Query_should_have_and(ApiStepDefs.java:107)\r\n\tat ✽.Database Query should have  \"11479\" and \"CoolasIce\"(file:src/test/resources/features/api/teams.feature:11)\r\n",
+              "duration": 1378400,
+              "status": "failed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11479\" and \"CoolasIce\"",
             "match": {
               "arguments": [
@@ -3995,24 +4921,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:46.013Z",
-        "line": 51,
+        "start_timestamp": "2022-02-16T02:32:15.219Z",
+        "before": [
+          {
+            "result": {
+              "duration": 739936100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 52,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;39",
+        "after": [
+          {
+            "result": {
+              "duration": 336900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 605006400,
+              "duration": 1055729600,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -4021,10 +4972,10 @@
           },
           {
             "result": {
-              "duration": 454881300,
+              "duration": 346293000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11485\"",
             "match": {
               "arguments": [
@@ -4043,10 +4994,10 @@
           },
           {
             "result": {
-              "duration": 58699,
+              "duration": 162700,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -4061,10 +5012,10 @@
           },
           {
             "result": {
-              "duration": 30900,
+              "duration": 8241000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"MadeinAmerica\" in response",
             "match": {
               "arguments": [
@@ -4079,10 +5030,10 @@
           },
           {
             "result": {
-              "duration": 23000,
+              "duration": 77417300,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11485\" and \"MadeinAmerica\"",
             "match": {
               "arguments": [
@@ -4103,24 +5054,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:47.074Z",
-        "line": 52,
+        "start_timestamp": "2022-02-16T02:32:17.449Z",
+        "before": [
+          {
+            "result": {
+              "duration": 581547300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 53,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;40",
+        "after": [
+          {
+            "result": {
+              "duration": 344600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 659222800,
+              "duration": 711375100,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -4129,10 +5105,10 @@
           },
           {
             "result": {
-              "duration": 558295900,
+              "duration": 318478900,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11491\"",
             "match": {
               "arguments": [
@@ -4151,10 +5127,10 @@
           },
           {
             "result": {
-              "duration": 68200,
+              "duration": 160000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -4169,10 +5145,10 @@
           },
           {
             "result": {
-              "duration": 133500,
+              "duration": 7143700,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"RoadHard\" in response",
             "match": {
               "arguments": [
@@ -4187,10 +5163,10 @@
           },
           {
             "result": {
-              "duration": 21900,
+              "duration": 60941200,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11491\" and \"RoadHard\"",
             "match": {
               "arguments": [
@@ -4211,24 +5187,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:48.292Z",
-        "line": 53,
+        "start_timestamp": "2022-02-16T02:32:19.132Z",
+        "before": [
+          {
+            "result": {
+              "duration": 483840300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 54,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;41",
+        "after": [
+          {
+            "result": {
+              "duration": 248600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 497925101,
+              "duration": 491834300,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -4237,10 +5238,10 @@
           },
           {
             "result": {
-              "duration": 466960700,
+              "duration": 315080400,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11497\"",
             "match": {
               "arguments": [
@@ -4259,10 +5260,10 @@
           },
           {
             "result": {
-              "duration": 52901,
+              "duration": 356000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -4277,10 +5278,10 @@
           },
           {
             "result": {
-              "duration": 30501,
+              "duration": 13458600,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"AsGoodasItGets\" in response",
             "match": {
               "arguments": [
@@ -4295,10 +5296,10 @@
           },
           {
             "result": {
-              "duration": 5191300,
+              "duration": 58924100,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11497\" and \"AsGoodasItGets\"",
             "match": {
               "arguments": [
@@ -4319,24 +5320,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:49.263Z",
-        "line": 54,
+        "start_timestamp": "2022-02-16T02:32:20.497Z",
+        "before": [
+          {
+            "result": {
+              "duration": 566684300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 55,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;42",
+        "after": [
+          {
+            "result": {
+              "duration": 384400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 482093799,
+              "duration": 446744300,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -4345,10 +5371,10 @@
           },
           {
             "result": {
-              "duration": 379328800,
+              "duration": 402916100,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11503\"",
             "match": {
               "arguments": [
@@ -4367,10 +5393,10 @@
           },
           {
             "result": {
-              "duration": 1235500,
+              "duration": 409700,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -4385,10 +5411,10 @@
           },
           {
             "result": {
-              "duration": 120700,
+              "duration": 27090900,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"QuestforFire\" in response",
             "match": {
               "arguments": [
@@ -4403,10 +5429,10 @@
           },
           {
             "result": {
-              "duration": 44301,
+              "duration": 60213500,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11503\" and \"QuestforFire\"",
             "match": {
               "arguments": [
@@ -4427,24 +5453,49 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-19T19:30:50.126Z",
-        "line": 55,
+        "start_timestamp": "2022-02-16T02:32:22.004Z",
+        "before": [
+          {
+            "result": {
+              "duration": 633508500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.dbHook()"
+            }
+          }
+        ],
+        "line": 56,
         "name": "2 point team info verification,Api and Database",
         "description": "",
         "id": "team-module-verifications;2-point-team-info-verification-api-and-database;;43",
+        "after": [
+          {
+            "result": {
+              "duration": 276800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterDbHook()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 937476500,
+              "duration": 515689900,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User logged in to Bookit api as teacher role",
             "match": {
               "location": "ApiStepDefs.user_logged_in_to_Bookit_api_as_teacher_role()"
@@ -4453,10 +5504,10 @@
           },
           {
             "result": {
-              "duration": 507645600,
+              "duration": 350313400,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sends GET request to \"/api/teams/{id}\" with \"11509\"",
             "match": {
               "arguments": [
@@ -4475,10 +5526,10 @@
           },
           {
             "result": {
-              "duration": 61100,
+              "duration": 169100,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "status code should be 200",
             "match": {
               "arguments": [
@@ -4493,10 +5544,10 @@
           },
           {
             "result": {
-              "duration": 27000,
+              "duration": 6181700,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Team name should be \"teachers\" in response",
             "match": {
               "arguments": [
@@ -4511,10 +5562,10 @@
           },
           {
             "result": {
-              "duration": 20001,
+              "duration": 58192000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Database Query should have  \"11509\" and \"teachers\"",
             "match": {
               "arguments": [
@@ -4535,6 +5586,9 @@
         "tags": [
           {
             "name": "@teams"
+          },
+          {
+            "name": "@db"
           }
         ]
       }
@@ -4544,6 +5598,23 @@
     "id": "team-module-verifications",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/api/teams.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@teams",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@db",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
   }
 ]

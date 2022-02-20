@@ -1,7 +1,8 @@
+@teams @db
 Feature:  Team module verifications
 
 
-  @teams
+
   Scenario Outline: 2 point team info verification,Api and Database
     Given User logged in to Bookit api as teacher role
     And User sends GET request to "/api/teams/{id}" with "<team_id>"
