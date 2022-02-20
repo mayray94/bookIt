@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/cybertek/stepdefs",
         dryRun = false,
-        tags = "@teams"
+        tags = " @studentshema"
 )
 public class CukesRunner {
 

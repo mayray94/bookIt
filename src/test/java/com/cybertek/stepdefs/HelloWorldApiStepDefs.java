@@ -26,8 +26,16 @@ public class HelloWorldApiStepDefs {
 
     @Then("status code is {int}")
     public void status_code_is(int expStatusCode) {
+
+        if(response.statusCode() != expStatusCode) {
+            LOG.error("Status code does not match the expected = " + response.statusCode());
+        }else{
+            LOG.info("Status code verification passed = " + response.statusCode());
+        }
         assertEquals(expStatusCode , response.statusCode());
-    }
+
+
+}
 
     @Then("response body contains {string}")
     public void response_body_contains(String expValue) {
