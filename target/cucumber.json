@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-02-16T00:59:48.275Z",
+        "start_timestamp": "2022-02-19T19:30:02.717Z",
         "line": 14,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3172418900,
+              "duration": 8852020700,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 406404800,
+              "duration": 424101899,
               "status": "passed"
             },
             "line": 7,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1067000,
+              "duration": 827700,
               "status": "passed"
             },
             "line": 8,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 350000,
+              "duration": 65400,
               "status": "passed"
             },
             "line": 9,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 350500,
+              "duration": 22100,
               "status": "passed"
             },
             "line": 10,
@@ -111,7 +111,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T00:59:51.902Z",
+        "start_timestamp": "2022-02-19T19:30:12.020Z",
         "line": 15,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -121,7 +121,7 @@
         "steps": [
           {
             "result": {
-              "duration": 479343600,
+              "duration": 626547200,
               "status": "passed"
             },
             "line": 6,
@@ -133,7 +133,7 @@
           },
           {
             "result": {
-              "duration": 332658200,
+              "duration": 375905501,
               "status": "passed"
             },
             "line": 7,
@@ -155,7 +155,7 @@
           },
           {
             "result": {
-              "duration": 217600,
+              "duration": 52800,
               "status": "passed"
             },
             "line": 8,
@@ -173,7 +173,7 @@
           },
           {
             "result": {
-              "duration": 185000,
+              "duration": 30800,
               "status": "passed"
             },
             "line": 9,
@@ -191,7 +191,7 @@
           },
           {
             "result": {
-              "duration": 186600,
+              "duration": 20500,
               "status": "passed"
             },
             "line": 10,
@@ -219,7 +219,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T00:59:52.717Z",
+        "start_timestamp": "2022-02-19T19:30:13.024Z",
         "line": 16,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -229,7 +229,7 @@
         "steps": [
           {
             "result": {
-              "duration": 460152100,
+              "duration": 497826600,
               "status": "passed"
             },
             "line": 6,
@@ -241,7 +241,7 @@
           },
           {
             "result": {
-              "duration": 338600700,
+              "duration": 398849099,
               "status": "passed"
             },
             "line": 7,
@@ -263,7 +263,7 @@
           },
           {
             "result": {
-              "duration": 410600,
+              "duration": 62899,
               "status": "passed"
             },
             "line": 8,
@@ -281,7 +281,7 @@
           },
           {
             "result": {
-              "duration": 515900,
+              "duration": 39600,
               "status": "passed"
             },
             "line": 9,
@@ -299,7 +299,7 @@
           },
           {
             "result": {
-              "duration": 249800,
+              "duration": 22400,
               "status": "passed"
             },
             "line": 10,
@@ -327,7 +327,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T00:59:53.518Z",
+        "start_timestamp": "2022-02-19T19:30:13.921Z",
         "line": 17,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -337,7 +337,7 @@
         "steps": [
           {
             "result": {
-              "duration": 459898100,
+              "duration": 487315500,
               "status": "passed"
             },
             "line": 6,
@@ -349,7 +349,7 @@
           },
           {
             "result": {
-              "duration": 368460200,
+              "duration": 416664400,
               "status": "passed"
             },
             "line": 7,
@@ -371,7 +371,7 @@
           },
           {
             "result": {
-              "duration": 289100,
+              "duration": 54100,
               "status": "passed"
             },
             "line": 8,
@@ -389,7 +389,7 @@
           },
           {
             "result": {
-              "duration": 279300,
+              "duration": 29500,
               "status": "passed"
             },
             "line": 9,
@@ -407,7 +407,7 @@
           },
           {
             "result": {
-              "duration": 275000,
+              "duration": 17801,
               "status": "passed"
             },
             "line": 10,
@@ -435,7 +435,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T00:59:54.348Z",
+        "start_timestamp": "2022-02-19T19:30:14.826Z",
         "line": 18,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -445,7 +445,7 @@
         "steps": [
           {
             "result": {
-              "duration": 431317300,
+              "duration": 582270499,
               "status": "passed"
             },
             "line": 6,
@@ -457,7 +457,7 @@
           },
           {
             "result": {
-              "duration": 355212100,
+              "duration": 360698601,
               "status": "passed"
             },
             "line": 7,
@@ -479,7 +479,7 @@
           },
           {
             "result": {
-              "duration": 468300,
+              "duration": 66001,
               "status": "passed"
             },
             "line": 8,
@@ -497,7 +497,7 @@
           },
           {
             "result": {
-              "duration": 308200,
+              "duration": 33800,
               "status": "passed"
             },
             "line": 9,
@@ -515,7 +515,7 @@
           },
           {
             "result": {
-              "duration": 203700,
+              "duration": 23701,
               "status": "passed"
             },
             "line": 10,
@@ -543,7 +543,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T00:59:55.139Z",
+        "start_timestamp": "2022-02-19T19:30:15.770Z",
         "line": 19,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -553,7 +553,7 @@
         "steps": [
           {
             "result": {
-              "duration": 426192800,
+              "duration": 520917700,
               "status": "passed"
             },
             "line": 6,
@@ -565,7 +565,7 @@
           },
           {
             "result": {
-              "duration": 334465000,
+              "duration": 419587899,
               "status": "passed"
             },
             "line": 7,
@@ -587,7 +587,7 @@
           },
           {
             "result": {
-              "duration": 191200,
+              "duration": 58800,
               "status": "passed"
             },
             "line": 8,
@@ -605,7 +605,7 @@
           },
           {
             "result": {
-              "duration": 225700,
+              "duration": 776301,
               "status": "passed"
             },
             "line": 9,
@@ -623,7 +623,7 @@
           },
           {
             "result": {
-              "duration": 191200,
+              "duration": 36101,
               "status": "passed"
             },
             "line": 10,
@@ -651,7 +651,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T00:59:55.902Z",
+        "start_timestamp": "2022-02-19T19:30:16.711Z",
         "line": 20,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -661,7 +661,7 @@
         "steps": [
           {
             "result": {
-              "duration": 409209000,
+              "duration": 506740300,
               "status": "passed"
             },
             "line": 6,
@@ -673,7 +673,7 @@
           },
           {
             "result": {
-              "duration": 328255600,
+              "duration": 437600901,
               "status": "passed"
             },
             "line": 7,
@@ -695,7 +695,7 @@
           },
           {
             "result": {
-              "duration": 199300,
+              "duration": 63100,
               "status": "passed"
             },
             "line": 8,
@@ -713,7 +713,7 @@
           },
           {
             "result": {
-              "duration": 167600,
+              "duration": 34800,
               "status": "passed"
             },
             "line": 9,
@@ -731,7 +731,7 @@
           },
           {
             "result": {
-              "duration": 180000,
+              "duration": 24301,
               "status": "passed"
             },
             "line": 10,
@@ -759,7 +759,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T00:59:56.640Z",
+        "start_timestamp": "2022-02-19T19:30:17.657Z",
         "line": 21,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -769,7 +769,7 @@
         "steps": [
           {
             "result": {
-              "duration": 411683700,
+              "duration": 542481100,
               "status": "passed"
             },
             "line": 6,
@@ -781,7 +781,7 @@
           },
           {
             "result": {
-              "duration": 375938800,
+              "duration": 437373200,
               "status": "passed"
             },
             "line": 7,
@@ -803,7 +803,7 @@
           },
           {
             "result": {
-              "duration": 386300,
+              "duration": 70100,
               "status": "passed"
             },
             "line": 8,
@@ -821,7 +821,7 @@
           },
           {
             "result": {
-              "duration": 183200,
+              "duration": 38000,
               "status": "passed"
             },
             "line": 9,
@@ -839,7 +839,7 @@
           },
           {
             "result": {
-              "duration": 189200,
+              "duration": 22701,
               "status": "passed"
             },
             "line": 10,
@@ -867,7 +867,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T00:59:57.431Z",
+        "start_timestamp": "2022-02-19T19:30:18.637Z",
         "line": 22,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -877,7 +877,7 @@
         "steps": [
           {
             "result": {
-              "duration": 413706000,
+              "duration": 657233801,
               "status": "passed"
             },
             "line": 6,
@@ -889,7 +889,7 @@
           },
           {
             "result": {
-              "duration": 322825800,
+              "duration": 433617901,
               "status": "passed"
             },
             "line": 7,
@@ -911,7 +911,7 @@
           },
           {
             "result": {
-              "duration": 502800,
+              "duration": 55699,
               "status": "passed"
             },
             "line": 8,
@@ -929,7 +929,7 @@
           },
           {
             "result": {
-              "duration": 490400,
+              "duration": 27600,
               "status": "passed"
             },
             "line": 9,
@@ -947,7 +947,7 @@
           },
           {
             "result": {
-              "duration": 334900,
+              "duration": 16500,
               "status": "passed"
             },
             "line": 10,
@@ -975,7 +975,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T00:59:58.172Z",
+        "start_timestamp": "2022-02-19T19:30:19.728Z",
         "line": 23,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -985,7 +985,7 @@
         "steps": [
           {
             "result": {
-              "duration": 416573400,
+              "duration": 616102200,
               "status": "passed"
             },
             "line": 6,
@@ -997,7 +997,7 @@
           },
           {
             "result": {
-              "duration": 326780500,
+              "duration": 382776300,
               "status": "passed"
             },
             "line": 7,
@@ -1019,7 +1019,7 @@
           },
           {
             "result": {
-              "duration": 165400,
+              "duration": 71201,
               "status": "passed"
             },
             "line": 8,
@@ -1037,7 +1037,7 @@
           },
           {
             "result": {
-              "duration": 145300,
+              "duration": 35800,
               "status": "passed"
             },
             "line": 9,
@@ -1055,7 +1055,7 @@
           },
           {
             "result": {
-              "duration": 143200,
+              "duration": 23800,
               "status": "passed"
             },
             "line": 10,
@@ -1083,7 +1083,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T00:59:58.918Z",
+        "start_timestamp": "2022-02-19T19:30:20.727Z",
         "line": 24,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -1093,7 +1093,7 @@
         "steps": [
           {
             "result": {
-              "duration": 397978900,
+              "duration": 602526100,
               "status": "passed"
             },
             "line": 6,
@@ -1105,7 +1105,7 @@
           },
           {
             "result": {
-              "duration": 325897400,
+              "duration": 426260801,
               "status": "passed"
             },
             "line": 7,
@@ -1127,7 +1127,7 @@
           },
           {
             "result": {
-              "duration": 165600,
+              "duration": 71000,
               "status": "passed"
             },
             "line": 8,
@@ -1145,7 +1145,7 @@
           },
           {
             "result": {
-              "duration": 158900,
+              "duration": 38000,
               "status": "passed"
             },
             "line": 9,
@@ -1163,7 +1163,7 @@
           },
           {
             "result": {
-              "duration": 151900,
+              "duration": 22001,
               "status": "passed"
             },
             "line": 10,
@@ -1191,7 +1191,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T00:59:59.643Z",
+        "start_timestamp": "2022-02-19T19:30:21.757Z",
         "line": 25,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -1201,7 +1201,7 @@
         "steps": [
           {
             "result": {
-              "duration": 413520200,
+              "duration": 479480400,
               "status": "passed"
             },
             "line": 6,
@@ -1213,7 +1213,7 @@
           },
           {
             "result": {
-              "duration": 364325000,
+              "duration": 622073101,
               "status": "passed"
             },
             "line": 7,
@@ -1235,7 +1235,7 @@
           },
           {
             "result": {
-              "duration": 442100,
+              "duration": 67200,
               "status": "passed"
             },
             "line": 8,
@@ -1253,7 +1253,7 @@
           },
           {
             "result": {
-              "duration": 429800,
+              "duration": 40700,
               "status": "passed"
             },
             "line": 9,
@@ -1271,7 +1271,7 @@
           },
           {
             "result": {
-              "duration": 272900,
+              "duration": 22500,
               "status": "passed"
             },
             "line": 10,
@@ -1299,7 +1299,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:00.424Z",
+        "start_timestamp": "2022-02-19T19:30:22.859Z",
         "line": 26,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -1309,7 +1309,7 @@
         "steps": [
           {
             "result": {
-              "duration": 547386200,
+              "duration": 449681000,
               "status": "passed"
             },
             "line": 6,
@@ -1321,7 +1321,7 @@
           },
           {
             "result": {
-              "duration": 792524700,
+              "duration": 370303799,
               "status": "passed"
             },
             "line": 7,
@@ -1343,7 +1343,7 @@
           },
           {
             "result": {
-              "duration": 691300,
+              "duration": 59600,
               "status": "passed"
             },
             "line": 8,
@@ -1361,7 +1361,7 @@
           },
           {
             "result": {
-              "duration": 609000,
+              "duration": 40501,
               "status": "passed"
             },
             "line": 9,
@@ -1379,7 +1379,7 @@
           },
           {
             "result": {
-              "duration": 185200,
+              "duration": 23300,
               "status": "passed"
             },
             "line": 10,
@@ -1407,7 +1407,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:01.768Z",
+        "start_timestamp": "2022-02-19T19:30:23.679Z",
         "line": 27,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -1417,7 +1417,7 @@
         "steps": [
           {
             "result": {
-              "duration": 534098900,
+              "duration": 948686800,
               "status": "passed"
             },
             "line": 6,
@@ -1429,7 +1429,7 @@
           },
           {
             "result": {
-              "duration": 424594100,
+              "duration": 439170800,
               "status": "passed"
             },
             "line": 7,
@@ -1451,7 +1451,7 @@
           },
           {
             "result": {
-              "duration": 191800,
+              "duration": 89200,
               "status": "passed"
             },
             "line": 8,
@@ -1469,7 +1469,7 @@
           },
           {
             "result": {
-              "duration": 149500,
+              "duration": 26600,
               "status": "passed"
             },
             "line": 9,
@@ -1487,7 +1487,7 @@
           },
           {
             "result": {
-              "duration": 137800,
+              "duration": 12300,
               "status": "passed"
             },
             "line": 10,
@@ -1515,7 +1515,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:02.728Z",
+        "start_timestamp": "2022-02-19T19:30:25.068Z",
         "line": 28,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -1525,7 +1525,7 @@
         "steps": [
           {
             "result": {
-              "duration": 672718000,
+              "duration": 563588400,
               "status": "passed"
             },
             "line": 6,
@@ -1537,7 +1537,7 @@
           },
           {
             "result": {
-              "duration": 357348500,
+              "duration": 366848700,
               "status": "passed"
             },
             "line": 7,
@@ -1559,7 +1559,7 @@
           },
           {
             "result": {
-              "duration": 186900,
+              "duration": 145599,
               "status": "passed"
             },
             "line": 8,
@@ -1577,7 +1577,7 @@
           },
           {
             "result": {
-              "duration": 160900,
+              "duration": 66200,
               "status": "passed"
             },
             "line": 9,
@@ -1595,7 +1595,7 @@
           },
           {
             "result": {
-              "duration": 138700,
+              "duration": 12800,
               "status": "passed"
             },
             "line": 10,
@@ -1623,7 +1623,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:03.761Z",
+        "start_timestamp": "2022-02-19T19:30:25.999Z",
         "line": 29,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -1633,7 +1633,7 @@
         "steps": [
           {
             "result": {
-              "duration": 470251300,
+              "duration": 467648701,
               "status": "passed"
             },
             "line": 6,
@@ -1645,7 +1645,7 @@
           },
           {
             "result": {
-              "duration": 342882500,
+              "duration": 365384999,
               "status": "passed"
             },
             "line": 7,
@@ -1667,7 +1667,7 @@
           },
           {
             "result": {
-              "duration": 425600,
+              "duration": 391600,
               "status": "passed"
             },
             "line": 8,
@@ -1685,7 +1685,7 @@
           },
           {
             "result": {
-              "duration": 283400,
+              "duration": 181200,
               "status": "passed"
             },
             "line": 9,
@@ -1703,7 +1703,7 @@
           },
           {
             "result": {
-              "duration": 238400,
+              "duration": 131500,
               "status": "passed"
             },
             "line": 10,
@@ -1731,7 +1731,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:04.575Z",
+        "start_timestamp": "2022-02-19T19:30:26.833Z",
         "line": 30,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -1741,7 +1741,7 @@
         "steps": [
           {
             "result": {
-              "duration": 845000700,
+              "duration": 515194901,
               "status": "passed"
             },
             "line": 6,
@@ -1753,7 +1753,7 @@
           },
           {
             "result": {
-              "duration": 585575500,
+              "duration": 391430601,
               "status": "passed"
             },
             "line": 7,
@@ -1775,7 +1775,7 @@
           },
           {
             "result": {
-              "duration": 177700,
+              "duration": 101400,
               "status": "passed"
             },
             "line": 8,
@@ -1793,7 +1793,7 @@
           },
           {
             "result": {
-              "duration": 162600,
+              "duration": 57401,
               "status": "passed"
             },
             "line": 9,
@@ -1811,7 +1811,7 @@
           },
           {
             "result": {
-              "duration": 153200,
+              "duration": 27200,
               "status": "passed"
             },
             "line": 10,
@@ -1839,7 +1839,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:06.007Z",
+        "start_timestamp": "2022-02-19T19:30:27.741Z",
         "line": 31,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -1849,7 +1849,7 @@
         "steps": [
           {
             "result": {
-              "duration": 614692400,
+              "duration": 881448300,
               "status": "passed"
             },
             "line": 6,
@@ -1861,7 +1861,7 @@
           },
           {
             "result": {
-              "duration": 347181500,
+              "duration": 400108800,
               "status": "passed"
             },
             "line": 7,
@@ -1883,7 +1883,7 @@
           },
           {
             "result": {
-              "duration": 219400,
+              "duration": 33100,
               "status": "passed"
             },
             "line": 8,
@@ -1901,7 +1901,7 @@
           },
           {
             "result": {
-              "duration": 202700,
+              "duration": 16900,
               "status": "passed"
             },
             "line": 9,
@@ -1919,7 +1919,7 @@
           },
           {
             "result": {
-              "duration": 268700,
+              "duration": 9401,
               "status": "passed"
             },
             "line": 10,
@@ -1947,7 +1947,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:06.971Z",
+        "start_timestamp": "2022-02-19T19:30:29.023Z",
         "line": 32,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -1957,7 +1957,7 @@
         "steps": [
           {
             "result": {
-              "duration": 473451600,
+              "duration": 815681600,
               "status": "passed"
             },
             "line": 6,
@@ -1969,7 +1969,7 @@
           },
           {
             "result": {
-              "duration": 449219400,
+              "duration": 372651901,
               "status": "passed"
             },
             "line": 7,
@@ -1991,7 +1991,7 @@
           },
           {
             "result": {
-              "duration": 319100,
+              "duration": 34199,
               "status": "passed"
             },
             "line": 8,
@@ -2009,7 +2009,7 @@
           },
           {
             "result": {
-              "duration": 258700,
+              "duration": 18101,
               "status": "passed"
             },
             "line": 9,
@@ -2027,7 +2027,7 @@
           },
           {
             "result": {
-              "duration": 221200,
+              "duration": 10000,
               "status": "passed"
             },
             "line": 10,
@@ -2055,7 +2055,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:07.896Z",
+        "start_timestamp": "2022-02-19T19:30:30.212Z",
         "line": 33,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -2065,7 +2065,7 @@
         "steps": [
           {
             "result": {
-              "duration": 446181000,
+              "duration": 458097000,
               "status": "passed"
             },
             "line": 6,
@@ -2077,7 +2077,7 @@
           },
           {
             "result": {
-              "duration": 364639400,
+              "duration": 353535500,
               "status": "passed"
             },
             "line": 7,
@@ -2099,7 +2099,7 @@
           },
           {
             "result": {
-              "duration": 189800,
+              "duration": 32900,
               "status": "passed"
             },
             "line": 8,
@@ -2117,7 +2117,7 @@
           },
           {
             "result": {
-              "duration": 172700,
+              "duration": 18100,
               "status": "passed"
             },
             "line": 9,
@@ -2135,7 +2135,7 @@
           },
           {
             "result": {
-              "duration": 140100,
+              "duration": 10100,
               "status": "passed"
             },
             "line": 10,
@@ -2163,7 +2163,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:08.709Z",
+        "start_timestamp": "2022-02-19T19:30:31.024Z",
         "line": 34,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -2173,7 +2173,7 @@
         "steps": [
           {
             "result": {
-              "duration": 435245200,
+              "duration": 412579499,
               "status": "passed"
             },
             "line": 6,
@@ -2185,7 +2185,7 @@
           },
           {
             "result": {
-              "duration": 319624600,
+              "duration": 355852301,
               "status": "passed"
             },
             "line": 7,
@@ -2207,7 +2207,7 @@
           },
           {
             "result": {
-              "duration": 297700,
+              "duration": 35499,
               "status": "passed"
             },
             "line": 8,
@@ -2225,7 +2225,7 @@
           },
           {
             "result": {
-              "duration": 279200,
+              "duration": 21099,
               "status": "passed"
             },
             "line": 9,
@@ -2243,7 +2243,7 @@
           },
           {
             "result": {
-              "duration": 284000,
+              "duration": 13900,
               "status": "passed"
             },
             "line": 10,
@@ -2271,7 +2271,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:09.466Z",
+        "start_timestamp": "2022-02-19T19:30:31.793Z",
         "line": 35,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -2281,7 +2281,7 @@
         "steps": [
           {
             "result": {
-              "duration": 414204400,
+              "duration": 430050600,
               "status": "passed"
             },
             "line": 6,
@@ -2293,7 +2293,7 @@
           },
           {
             "result": {
-              "duration": 381396200,
+              "duration": 365470000,
               "status": "passed"
             },
             "line": 7,
@@ -2315,7 +2315,7 @@
           },
           {
             "result": {
-              "duration": 311300,
+              "duration": 45300,
               "status": "passed"
             },
             "line": 8,
@@ -2333,7 +2333,7 @@
           },
           {
             "result": {
-              "duration": 376300,
+              "duration": 18700,
               "status": "passed"
             },
             "line": 9,
@@ -2351,7 +2351,7 @@
           },
           {
             "result": {
-              "duration": 242900,
+              "duration": 9300,
               "status": "passed"
             },
             "line": 10,
@@ -2379,7 +2379,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:10.265Z",
+        "start_timestamp": "2022-02-19T19:30:32.588Z",
         "line": 36,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -2389,7 +2389,7 @@
         "steps": [
           {
             "result": {
-              "duration": 459942900,
+              "duration": 558238000,
               "status": "passed"
             },
             "line": 6,
@@ -2401,7 +2401,7 @@
           },
           {
             "result": {
-              "duration": 349641400,
+              "duration": 394687199,
               "status": "passed"
             },
             "line": 7,
@@ -2423,7 +2423,7 @@
           },
           {
             "result": {
-              "duration": 196800,
+              "duration": 39100,
               "status": "passed"
             },
             "line": 8,
@@ -2441,7 +2441,7 @@
           },
           {
             "result": {
-              "duration": 174600,
+              "duration": 24600,
               "status": "passed"
             },
             "line": 9,
@@ -2459,7 +2459,7 @@
           },
           {
             "result": {
-              "duration": 174100,
+              "duration": 11700,
               "status": "passed"
             },
             "line": 10,
@@ -2487,7 +2487,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:11.077Z",
+        "start_timestamp": "2022-02-19T19:30:33.541Z",
         "line": 37,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -2497,7 +2497,7 @@
         "steps": [
           {
             "result": {
-              "duration": 404238300,
+              "duration": 465839400,
               "status": "passed"
             },
             "line": 6,
@@ -2509,7 +2509,7 @@
           },
           {
             "result": {
-              "duration": 317016700,
+              "duration": 384671601,
               "status": "passed"
             },
             "line": 7,
@@ -2531,7 +2531,7 @@
           },
           {
             "result": {
-              "duration": 263600,
+              "duration": 59400,
               "status": "passed"
             },
             "line": 8,
@@ -2549,7 +2549,7 @@
           },
           {
             "result": {
-              "duration": 159800,
+              "duration": 16100,
               "status": "passed"
             },
             "line": 9,
@@ -2567,7 +2567,7 @@
           },
           {
             "result": {
-              "duration": 132200,
+              "duration": 9500,
               "status": "passed"
             },
             "line": 10,
@@ -2595,7 +2595,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:11.799Z",
+        "start_timestamp": "2022-02-19T19:30:34.392Z",
         "line": 38,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -2605,7 +2605,7 @@
         "steps": [
           {
             "result": {
-              "duration": 464323900,
+              "duration": 531280000,
               "status": "passed"
             },
             "line": 6,
@@ -2617,7 +2617,7 @@
           },
           {
             "result": {
-              "duration": 380278500,
+              "duration": 345369101,
               "status": "passed"
             },
             "line": 7,
@@ -2639,7 +2639,7 @@
           },
           {
             "result": {
-              "duration": 167700,
+              "duration": 63299,
               "status": "passed"
             },
             "line": 8,
@@ -2657,7 +2657,7 @@
           },
           {
             "result": {
-              "duration": 140500,
+              "duration": 37099,
               "status": "passed"
             },
             "line": 9,
@@ -2675,7 +2675,7 @@
           },
           {
             "result": {
-              "duration": 138300,
+              "duration": 30400,
               "status": "passed"
             },
             "line": 10,
@@ -2703,7 +2703,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:12.646Z",
+        "start_timestamp": "2022-02-19T19:30:35.269Z",
         "line": 39,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -2713,7 +2713,7 @@
         "steps": [
           {
             "result": {
-              "duration": 444462600,
+              "duration": 480027301,
               "status": "passed"
             },
             "line": 6,
@@ -2725,7 +2725,7 @@
           },
           {
             "result": {
-              "duration": 331462400,
+              "duration": 354702900,
               "status": "passed"
             },
             "line": 7,
@@ -2747,7 +2747,7 @@
           },
           {
             "result": {
-              "duration": 435300,
+              "duration": 64500,
               "status": "passed"
             },
             "line": 8,
@@ -2765,7 +2765,7 @@
           },
           {
             "result": {
-              "duration": 258500,
+              "duration": 26900,
               "status": "passed"
             },
             "line": 9,
@@ -2783,7 +2783,7 @@
           },
           {
             "result": {
-              "duration": 258600,
+              "duration": 11299,
               "status": "passed"
             },
             "line": 10,
@@ -2811,7 +2811,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:13.424Z",
+        "start_timestamp": "2022-02-19T19:30:36.105Z",
         "line": 40,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -2821,7 +2821,7 @@
         "steps": [
           {
             "result": {
-              "duration": 433344800,
+              "duration": 465871900,
               "status": "passed"
             },
             "line": 6,
@@ -2833,7 +2833,7 @@
           },
           {
             "result": {
-              "duration": 338837800,
+              "duration": 335975800,
               "status": "passed"
             },
             "line": 7,
@@ -2855,7 +2855,7 @@
           },
           {
             "result": {
-              "duration": 175500,
+              "duration": 56599,
               "status": "passed"
             },
             "line": 8,
@@ -2873,7 +2873,7 @@
           },
           {
             "result": {
-              "duration": 138000,
+              "duration": 31500,
               "status": "passed"
             },
             "line": 9,
@@ -2891,7 +2891,7 @@
           },
           {
             "result": {
-              "duration": 156900,
+              "duration": 14399,
               "status": "passed"
             },
             "line": 10,
@@ -2919,7 +2919,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:14.198Z",
+        "start_timestamp": "2022-02-19T19:30:36.907Z",
         "line": 41,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -2929,7 +2929,7 @@
         "steps": [
           {
             "result": {
-              "duration": 437097700,
+              "duration": 521611999,
               "status": "passed"
             },
             "line": 6,
@@ -2941,7 +2941,7 @@
           },
           {
             "result": {
-              "duration": 348881300,
+              "duration": 351494000,
               "status": "passed"
             },
             "line": 7,
@@ -2963,7 +2963,7 @@
           },
           {
             "result": {
-              "duration": 164200,
+              "duration": 54501,
               "status": "passed"
             },
             "line": 8,
@@ -2981,7 +2981,7 @@
           },
           {
             "result": {
-              "duration": 127300,
+              "duration": 34701,
               "status": "passed"
             },
             "line": 9,
@@ -2999,7 +2999,7 @@
           },
           {
             "result": {
-              "duration": 140400,
+              "duration": 15000,
               "status": "passed"
             },
             "line": 10,
@@ -3027,7 +3027,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:14.986Z",
+        "start_timestamp": "2022-02-19T19:30:37.780Z",
         "line": 42,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -3037,7 +3037,7 @@
         "steps": [
           {
             "result": {
-              "duration": 432616000,
+              "duration": 499070700,
               "status": "passed"
             },
             "line": 6,
@@ -3049,7 +3049,7 @@
           },
           {
             "result": {
-              "duration": 331443300,
+              "duration": 363442400,
               "status": "passed"
             },
             "line": 7,
@@ -3071,7 +3071,7 @@
           },
           {
             "result": {
-              "duration": 405100,
+              "duration": 59800,
               "status": "passed"
             },
             "line": 8,
@@ -3089,7 +3089,7 @@
           },
           {
             "result": {
-              "duration": 194700,
+              "duration": 46300,
               "status": "passed"
             },
             "line": 9,
@@ -3107,7 +3107,7 @@
           },
           {
             "result": {
-              "duration": 149500,
+              "duration": 17900,
               "status": "passed"
             },
             "line": 10,
@@ -3135,7 +3135,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:15.751Z",
+        "start_timestamp": "2022-02-19T19:30:38.644Z",
         "line": 43,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -3145,7 +3145,7 @@
         "steps": [
           {
             "result": {
-              "duration": 423519800,
+              "duration": 532315700,
               "status": "passed"
             },
             "line": 6,
@@ -3157,7 +3157,7 @@
           },
           {
             "result": {
-              "duration": 340629500,
+              "duration": 480575700,
               "status": "passed"
             },
             "line": 7,
@@ -3179,7 +3179,7 @@
           },
           {
             "result": {
-              "duration": 251500,
+              "duration": 60600,
               "status": "passed"
             },
             "line": 8,
@@ -3197,7 +3197,7 @@
           },
           {
             "result": {
-              "duration": 220300,
+              "duration": 37501,
               "status": "passed"
             },
             "line": 9,
@@ -3215,7 +3215,7 @@
           },
           {
             "result": {
-              "duration": 148900,
+              "duration": 22300,
               "status": "passed"
             },
             "line": 10,
@@ -3243,7 +3243,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:16.517Z",
+        "start_timestamp": "2022-02-19T19:30:39.657Z",
         "line": 44,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -3253,7 +3253,7 @@
         "steps": [
           {
             "result": {
-              "duration": 419422400,
+              "duration": 441771900,
               "status": "passed"
             },
             "line": 6,
@@ -3265,7 +3265,7 @@
           },
           {
             "result": {
-              "duration": 358648400,
+              "duration": 382819500,
               "status": "passed"
             },
             "line": 7,
@@ -3287,7 +3287,7 @@
           },
           {
             "result": {
-              "duration": 351800,
+              "duration": 70700,
               "status": "passed"
             },
             "line": 8,
@@ -3305,7 +3305,7 @@
           },
           {
             "result": {
-              "duration": 207000,
+              "duration": 34900,
               "status": "passed"
             },
             "line": 9,
@@ -3323,7 +3323,7 @@
           },
           {
             "result": {
-              "duration": 141200,
+              "duration": 18500,
               "status": "passed"
             },
             "line": 10,
@@ -3351,7 +3351,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:17.297Z",
+        "start_timestamp": "2022-02-19T19:30:40.482Z",
         "line": 45,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -3361,7 +3361,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1003099400,
+              "duration": 497283700,
               "status": "passed"
             },
             "line": 6,
@@ -3373,7 +3373,7 @@
           },
           {
             "result": {
-              "duration": 326432700,
+              "duration": 406205400,
               "status": "passed"
             },
             "line": 7,
@@ -3395,7 +3395,7 @@
           },
           {
             "result": {
-              "duration": 377400,
+              "duration": 57099,
               "status": "passed"
             },
             "line": 8,
@@ -3413,7 +3413,7 @@
           },
           {
             "result": {
-              "duration": 427100,
+              "duration": 33200,
               "status": "passed"
             },
             "line": 9,
@@ -3431,7 +3431,7 @@
           },
           {
             "result": {
-              "duration": 247500,
+              "duration": 19500,
               "status": "passed"
             },
             "line": 10,
@@ -3459,7 +3459,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:18.631Z",
+        "start_timestamp": "2022-02-19T19:30:41.387Z",
         "line": 46,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -3469,7 +3469,7 @@
         "steps": [
           {
             "result": {
-              "duration": 423682600,
+              "duration": 509089201,
               "status": "passed"
             },
             "line": 6,
@@ -3481,7 +3481,7 @@
           },
           {
             "result": {
-              "duration": 318769300,
+              "duration": 389867101,
               "status": "passed"
             },
             "line": 7,
@@ -3503,7 +3503,7 @@
           },
           {
             "result": {
-              "duration": 173300,
+              "duration": 53800,
               "status": "passed"
             },
             "line": 8,
@@ -3521,7 +3521,7 @@
           },
           {
             "result": {
-              "duration": 122100,
+              "duration": 30900,
               "status": "passed"
             },
             "line": 9,
@@ -3539,7 +3539,7 @@
           },
           {
             "result": {
-              "duration": 122900,
+              "duration": 22800,
               "status": "passed"
             },
             "line": 10,
@@ -3567,7 +3567,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:19.375Z",
+        "start_timestamp": "2022-02-19T19:30:42.286Z",
         "line": 47,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -3577,7 +3577,7 @@
         "steps": [
           {
             "result": {
-              "duration": 433575600,
+              "duration": 504579199,
               "status": "passed"
             },
             "line": 6,
@@ -3589,7 +3589,7 @@
           },
           {
             "result": {
-              "duration": 391674100,
+              "duration": 396078599,
               "status": "passed"
             },
             "line": 7,
@@ -3611,7 +3611,7 @@
           },
           {
             "result": {
-              "duration": 319000,
+              "duration": 68400,
               "status": "passed"
             },
             "line": 8,
@@ -3629,7 +3629,7 @@
           },
           {
             "result": {
-              "duration": 294900,
+              "duration": 29799,
               "status": "passed"
             },
             "line": 9,
@@ -3647,7 +3647,7 @@
           },
           {
             "result": {
-              "duration": 297800,
+              "duration": 25499,
               "status": "passed"
             },
             "line": 10,
@@ -3675,7 +3675,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:20.203Z",
+        "start_timestamp": "2022-02-19T19:30:43.188Z",
         "line": 48,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -3685,7 +3685,7 @@
         "steps": [
           {
             "result": {
-              "duration": 530972900,
+              "duration": 574279800,
               "status": "passed"
             },
             "line": 6,
@@ -3697,7 +3697,7 @@
           },
           {
             "result": {
-              "duration": 356406600,
+              "duration": 405714500,
               "status": "passed"
             },
             "line": 7,
@@ -3719,7 +3719,7 @@
           },
           {
             "result": {
-              "duration": 147200,
+              "duration": 73201,
               "status": "passed"
             },
             "line": 8,
@@ -3737,7 +3737,7 @@
           },
           {
             "result": {
-              "duration": 146400,
+              "duration": 34701,
               "status": "passed"
             },
             "line": 9,
@@ -3755,7 +3755,7 @@
           },
           {
             "result": {
-              "duration": 125600,
+              "duration": 360500,
               "status": "passed"
             },
             "line": 10,
@@ -3783,7 +3783,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:21.092Z",
+        "start_timestamp": "2022-02-19T19:30:44.168Z",
         "line": 49,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -3793,7 +3793,7 @@
         "steps": [
           {
             "result": {
-              "duration": 407193000,
+              "duration": 457149800,
               "status": "passed"
             },
             "line": 6,
@@ -3805,7 +3805,7 @@
           },
           {
             "result": {
-              "duration": 332801600,
+              "duration": 399713700,
               "status": "passed"
             },
             "line": 7,
@@ -3827,7 +3827,7 @@
           },
           {
             "result": {
-              "duration": 241100,
+              "duration": 58300,
               "status": "passed"
             },
             "line": 8,
@@ -3845,7 +3845,7 @@
           },
           {
             "result": {
-              "duration": 212200,
+              "duration": 29700,
               "status": "passed"
             },
             "line": 9,
@@ -3863,7 +3863,7 @@
           },
           {
             "result": {
-              "duration": 203700,
+              "duration": 20201,
               "status": "passed"
             },
             "line": 10,
@@ -3891,7 +3891,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:21.834Z",
+        "start_timestamp": "2022-02-19T19:30:45.026Z",
         "line": 50,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -3901,7 +3901,7 @@
         "steps": [
           {
             "result": {
-              "duration": 450320100,
+              "duration": 490047100,
               "status": "passed"
             },
             "line": 6,
@@ -3913,7 +3913,7 @@
           },
           {
             "result": {
-              "duration": 334452600,
+              "duration": 496715600,
               "status": "passed"
             },
             "line": 7,
@@ -3935,7 +3935,7 @@
           },
           {
             "result": {
-              "duration": 170600,
+              "duration": 54900,
               "status": "passed"
             },
             "line": 8,
@@ -3953,7 +3953,7 @@
           },
           {
             "result": {
-              "duration": 132800,
+              "duration": 27900,
               "status": "passed"
             },
             "line": 9,
@@ -3971,7 +3971,7 @@
           },
           {
             "result": {
-              "duration": 136200,
+              "duration": 19600,
               "status": "passed"
             },
             "line": 10,
@@ -3999,7 +3999,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:22.620Z",
+        "start_timestamp": "2022-02-19T19:30:46.013Z",
         "line": 51,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -4009,7 +4009,7 @@
         "steps": [
           {
             "result": {
-              "duration": 428332100,
+              "duration": 605006400,
               "status": "passed"
             },
             "line": 6,
@@ -4021,7 +4021,7 @@
           },
           {
             "result": {
-              "duration": 323470900,
+              "duration": 454881300,
               "status": "passed"
             },
             "line": 7,
@@ -4043,7 +4043,7 @@
           },
           {
             "result": {
-              "duration": 172900,
+              "duration": 58699,
               "status": "passed"
             },
             "line": 8,
@@ -4061,7 +4061,7 @@
           },
           {
             "result": {
-              "duration": 132800,
+              "duration": 30900,
               "status": "passed"
             },
             "line": 9,
@@ -4079,7 +4079,7 @@
           },
           {
             "result": {
-              "duration": 120500,
+              "duration": 23000,
               "status": "passed"
             },
             "line": 10,
@@ -4107,7 +4107,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:23.373Z",
+        "start_timestamp": "2022-02-19T19:30:47.074Z",
         "line": 52,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -4117,7 +4117,7 @@
         "steps": [
           {
             "result": {
-              "duration": 414552600,
+              "duration": 659222800,
               "status": "passed"
             },
             "line": 6,
@@ -4129,7 +4129,7 @@
           },
           {
             "result": {
-              "duration": 324552400,
+              "duration": 558295900,
               "status": "passed"
             },
             "line": 7,
@@ -4151,7 +4151,7 @@
           },
           {
             "result": {
-              "duration": 198100,
+              "duration": 68200,
               "status": "passed"
             },
             "line": 8,
@@ -4169,7 +4169,7 @@
           },
           {
             "result": {
-              "duration": 166700,
+              "duration": 133500,
               "status": "passed"
             },
             "line": 9,
@@ -4187,7 +4187,7 @@
           },
           {
             "result": {
-              "duration": 193600,
+              "duration": 21900,
               "status": "passed"
             },
             "line": 10,
@@ -4215,7 +4215,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:24.115Z",
+        "start_timestamp": "2022-02-19T19:30:48.292Z",
         "line": 53,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -4225,7 +4225,7 @@
         "steps": [
           {
             "result": {
-              "duration": 408742600,
+              "duration": 497925101,
               "status": "passed"
             },
             "line": 6,
@@ -4237,7 +4237,7 @@
           },
           {
             "result": {
-              "duration": 321964100,
+              "duration": 466960700,
               "status": "passed"
             },
             "line": 7,
@@ -4259,7 +4259,7 @@
           },
           {
             "result": {
-              "duration": 191700,
+              "duration": 52901,
               "status": "passed"
             },
             "line": 8,
@@ -4277,7 +4277,7 @@
           },
           {
             "result": {
-              "duration": 143400,
+              "duration": 30501,
               "status": "passed"
             },
             "line": 9,
@@ -4295,7 +4295,7 @@
           },
           {
             "result": {
-              "duration": 256200,
+              "duration": 5191300,
               "status": "passed"
             },
             "line": 10,
@@ -4323,7 +4323,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:24.847Z",
+        "start_timestamp": "2022-02-19T19:30:49.263Z",
         "line": 54,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -4333,7 +4333,7 @@
         "steps": [
           {
             "result": {
-              "duration": 404073300,
+              "duration": 482093799,
               "status": "passed"
             },
             "line": 6,
@@ -4345,7 +4345,7 @@
           },
           {
             "result": {
-              "duration": 342218500,
+              "duration": 379328800,
               "status": "passed"
             },
             "line": 7,
@@ -4367,7 +4367,7 @@
           },
           {
             "result": {
-              "duration": 161800,
+              "duration": 1235500,
               "status": "passed"
             },
             "line": 8,
@@ -4385,7 +4385,7 @@
           },
           {
             "result": {
-              "duration": 150300,
+              "duration": 120700,
               "status": "passed"
             },
             "line": 9,
@@ -4403,7 +4403,7 @@
           },
           {
             "result": {
-              "duration": 139000,
+              "duration": 44301,
               "status": "passed"
             },
             "line": 10,
@@ -4431,7 +4431,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-16T01:00:25.595Z",
+        "start_timestamp": "2022-02-19T19:30:50.126Z",
         "line": 55,
         "name": "2 point team info verification,Api and Database",
         "description": "",
@@ -4441,7 +4441,7 @@
         "steps": [
           {
             "result": {
-              "duration": 509518000,
+              "duration": 937476500,
               "status": "passed"
             },
             "line": 6,
@@ -4453,7 +4453,7 @@
           },
           {
             "result": {
-              "duration": 319935300,
+              "duration": 507645600,
               "status": "passed"
             },
             "line": 7,
@@ -4475,7 +4475,7 @@
           },
           {
             "result": {
-              "duration": 258300,
+              "duration": 61100,
               "status": "passed"
             },
             "line": 8,
@@ -4493,7 +4493,7 @@
           },
           {
             "result": {
-              "duration": 155700,
+              "duration": 27000,
               "status": "passed"
             },
             "line": 9,
@@ -4511,7 +4511,7 @@
           },
           {
             "result": {
-              "duration": 137400,
+              "duration": 20001,
               "status": "passed"
             },
             "line": 10,
