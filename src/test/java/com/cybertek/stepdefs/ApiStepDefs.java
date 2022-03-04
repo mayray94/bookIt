@@ -10,8 +10,11 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.http.ContentType;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.Map;
 
@@ -25,6 +28,7 @@ public class ApiStepDefs {
     String accessToken;
     Response response;
     Map<String,String> newrecordmap;
+    public static final Logger LOG= LogManager.getLogger();
 
     @Given("User logged in to Bookit api as teacher role")
     public void user_logged_in_to_Bookit_api_as_teacher_role() {
@@ -150,5 +154,19 @@ public class ApiStepDefs {
 
 
 
+    }
+
+    @Given("User logged in to Bookit api as team lead role")
+    public void userLoggedInToBookitApiAsTeamLeadRole() {
+        accessToken = BookItApiUtil.getAccessToken(Environment.LEADER_EMAIL, Environment.LEADER_PASSWORD);
+
+
+    }
+
+    @And("response should match {string} schema")
+    public void responseShouldMatchSchema(String jsonSchema) {
+        LOG.info("Performing json schema validation for "+response.asString());
+
+        response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath(jsonSchema));
     }
 }

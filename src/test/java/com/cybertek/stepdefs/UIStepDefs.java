@@ -18,6 +18,8 @@ public class UIStepDefs {
     public void user_is_on_self_page() {
         HomePage homePage = new HomePage();
         homePage.gotoSelf();
+
+
     }
 
 }

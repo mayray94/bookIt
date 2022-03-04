@@ -1,0 +1,6 @@
+20.02.2022 11:31:07 INFO  ApiStepDefs:168 - Performing json schema validation for {
+    "id": 11312,
+    "firstName": "Lissie",
+    "lastName": "Finnis",
+    "role": "student-team-leader"
+}

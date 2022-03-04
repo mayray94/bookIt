@@ -9,3 +9,4 @@ Feature: Add new team API and DB validation
       | team-name | Wooden Spoonser |
     Then status code should be 201
     And Database should persist same team info
+    And User deletes previously created team
